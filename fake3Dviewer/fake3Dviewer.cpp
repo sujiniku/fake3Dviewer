@@ -244,12 +244,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		HBRUSH brasi_buhin_2;
 		brasi_buhin_2 = CreateSolidBrush(RGB(255, 100, 100)); // ピンク色のブラシを作成
 		SelectObject(hdc, brasi_buhin_2); // ウィンドウhdcと、さきほど作成したブラシを関連づけ
-		// Rectangle(hdc, ((20+170)/2) - 20 * bairitu2 -zure_X, 60 + 40 , ((20 + 170) / 2) + 20 * bairitu2 - zure_X, 100 +40 ); // 図形の描画
+		Rectangle(hdc, ((20+170)/2) - 20 * bairitu2 -zure_X, 60 + 40 , ((20 + 170) / 2) + 20 * bairitu2 - zure_X, 100 +40 ); // 図形の描画
 
 
 		// Rectangle(hdc, ((20 + 170) / 2) - 20 , 60 + 40, ((20 + 170) / 2) + 20 , 100 + 40); // 基準の状態
 
-		Rectangle(hdc, ((20 + 170) / 2) - 20 * bairitu2, 120 - 20 * bairitu2, ((20 + 170) / 2) + 20 * bairitu2, 120 + 20 * bairitu2); // 基準の状態
+		// Rectangle(hdc, ((20 + 170) / 2) - 20 * bairitu2, 120 - 20 * bairitu2, ((20 + 170) / 2) + 20 * bairitu2, 120 + 20 * bairitu2); // 基準の状態
 
 
 
